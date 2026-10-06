@@ -18,7 +18,7 @@
     <meta name="author" content="Alex Reyes Aranda">
     <link rel="icon" href="https://www.alexdamour.com/favicon.ico">
 
-    <title>Research Projects | Alex Reyes Aranda</title>
+    <title data-i18n="projects.pagetitle">Research Projects | Alex Reyes Aranda</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./src/bootstrap.min.css" rel="stylesheet">
@@ -66,54 +66,58 @@
 
        <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin:20px 0 0 0">
         <ul class="nav nav-pills nav-stacked">
-          <li class="active"><a href="projects.html">Projects</a></li>
-          <li><a href="index.html#papers">Papers</a></li>
-          <li><a href="index.html#mentorship">Mentorship</a></li>
+          <li class="active"><a href="projects.html" data-i18n="projects">Projects</a></li>
+          <li><a href="index.html#papers" data-i18n="papers">Papers</a></li>
+          <li><a href="index.html#mentorship" data-i18n="mentorship">Mentorship</a></li>
         </ul>
       </div>
 
       <div class="col-xs-10 col-sm-8 col-md-8">
 
         <div class="row">
-          <h1 class="projects-title">Research Projects</h1>
-          <p>I'm grateful for the opportunities and collaborators that allowed me to grow as a researcher over the years and I look forward to continue expanding my skills by working with others!</p>
-          <p>Projects marked with (*) have an associated paper or report.</p>
+          <p id="lang-switch" class="text-right"><a href="#" data-lang="en">English</a> | <a href="#" data-lang="es">Español</a> | <a href="#" data-lang="de">Deutsch</a> | <a href="#" data-lang="zh">中文</a></p>
+        </div>
+
+        <div class="row">
+          <h1 class="projects-title" data-i18n="projects.title">Research Projects</h1>
+          <p data-i18n="projects.intro">I'm grateful for the opportunities and collaborators that allowed me to grow as a researcher over the years and I look forward to continue expanding my skills by working with others!</p>
+          <p data-i18n="projects.note">Projects marked with (*) have an associated paper or report.</p>
           <br>
           <ul class="projects-toc">
-            <li><a href="#neuromorphic">SANDIA / Neuromorphic Compiler Optimization*</a></li>
-            <li><a href="#agentic">SANDIA / Agentic Models &amp; AI Infrastructure</a></li>
-            <li><a href="#muon">USC / Muon Reshapes Multi-task Learning*</a></li>
+            <li><a href="#neuromorphic">SANDIA / <span data-i18n="proj.neuro">Neuromorphic Compiler Optimization</span>*</a></li>
+            <li><a href="#agentic">SANDIA / <span data-i18n="proj.agentic">Agentic Models &amp; AI Infrastructure</span></a></li>
+            <li><a href="#muon">USC / <span data-i18n="proj.muon">Muon Reshapes Multi-task Learning</span>*</a></li>
             <!-- <li><a href="#hessian">USC / Hessian Exploration</a></li> -->
-            <li><a href="#phenomenological">USC / Phenomenological Deep Learning</a></li>
-            <li><a href="#scratch">UCI / Deep Automated Scratch Assessment</a></li>
-            <li><a href="#rpp">UCI / Anticipating Design Tensions in Research Practice Partnerships*</a></li>
+            <li><a href="#phenomenological">USC / <span data-i18n="proj.phenom">Phenomenological Deep Learning</span></a></li>
+            <li><a href="#scratch">UCI / <span data-i18n="proj.scratch">Deep Automated Scratch Assessment</span></a></li>
+            <li><a href="#rpp">UCI / <span data-i18n="proj.rpp">Anticipating Design Tensions in Research Practice Partnerships</span>*</a></li>
           </ul>
         </div>
         <hr>
 
         <div class="row">
-          <p><span class="text-muted">UIR = Under Internal Review*, LIA = Limited Information Available*</span></p>
+          <p><span class="text-muted" data-i18n="projects.legend">UIR = Under Internal Review*, LIA = Limited Information Available*</span></p>
         </div>
 
         <div class="row project">
           <a name="neuromorphic"></a>
-          <h3><span class="bullet">&#9632;</span>SANDIA / Neuromorphic Compiler Optimization*</h3>
-          <p class="keywords">Spectral Graph Clustering, Optimization<span class="tag">UIR*</span></p>
-          <p>We researched optimization methods for a neuromorphic compiler within simulation. ETA October 2026. <span class="back">(Poster<!-- TODO: add poster URL --> / Paper<!-- TODO: add poster URL -->)</span></p>
+          <h3><span class="bullet">&#9632;</span>SANDIA / <span data-i18n="proj.neuro">Neuromorphic Compiler Optimization</span>*</h3>
+          <p class="keywords"><span data-i18n="kw.neuro">Spectral Graph Clustering, Optimization</span><span class="tag">UIR*</span></p>
+          <p><span data-i18n="desc.neuro">We researched optimization methods for a neuromorphic compiler within simulation. ETA October 2026.</span> <span class="back">(<span data-i18n="link.poster">Poster</span><!-- TODO: add poster URL --> / <span data-i18n="link.paper">Paper</span><!-- TODO: add poster URL -->)</span></p>
         </div>
 
         <div class="row project">
           <a name="agentic"></a>
-          <h3><span class="bullet">&#9632;</span>SANDIA / Agentic Models &amp; AI Infrastructure</h3>
-          <p class="keywords">Agents, LLMs, MCPs, Containerization, Docker, Runtimes<span class="tag">LIA*</span></p>
-          <p>I helped maintain an internal agentic model alongside various researchers at the Computer Science Research Institute. I got hands-on with the infrastructure that deploys and runs AI systems, including containers, runtimes, and agents. Throughout the summer, I troubleshot bugs, fixed problems as they came up, and read research papers on the underlying models to better understand the system I was working on. Building on what I learned, I developed and demoed my own locally deployed agentic runtime, all while presenting my progress at weekly meetings.</p>
+          <h3><span class="bullet">&#9632;</span>SANDIA / <span data-i18n="proj.agentic">Agentic Models &amp; AI Infrastructure</span></h3>
+          <p class="keywords"><span data-i18n="kw.agentic">Agents, LLMs, MCPs, Containerization, Docker, Runtimes</span><span class="tag">LIA*</span></p>
+          <p data-i18n="desc.agentic">I helped maintain an internal agentic model alongside various researchers at the Computer Science Research Institute. I got hands-on with the infrastructure that deploys and runs AI systems, including containers, runtimes, and agents. Throughout the summer, I troubleshot bugs, fixed problems as they came up, and read research papers on the underlying models to better understand the system I was working on. Building on what I learned, I developed and demoed my own locally deployed agentic runtime, all while presenting my progress at weekly meetings.</p>
         </div>
 
         <div class="row project">
           <a name="muon"></a>
-          <h3><span class="bullet">&#9632;</span>USC / Muon Reshapes Multi-task Learning*</h3>
-          <p class="keywords">Neural scaling laws, Machine learning optimization</p>
-          <p>Spectrum-aware optimizers, particularly Muon, exhibit more favorable empirical scaling than optimizers like SGD and Adam. Prior work explains this through more balanced learning in settings with imbalanced labels or input-output associations. We show that Muon enables more balanced skill acquisition in settings with task-level imbalance. Using a multi-task sparse parity-based setup along with Muon, sub-tasks are learned more in parallel than with other optimizers. We create a Skill Acquisition Lag (SAL) metric to quantify parallel versus sequential learning. In a simple in-context linear regression setting, Muon's convergence is independent of both task- and input-level imbalance, in contrast to (normalized) GD. <span class="back">(<a href="https://openreview.net/forum?id=WUsrhWHhU3">Paper</a> / <a href="https://drive.google.com/file/d/1-18_hlorD5rt6trD3PINME_BDoIkQejM/view?usp=drive_link">Poster</a> / <a href="https://drive.google.com/file/d/1mb0r9IH-m0FJhcILFsODGRu9DBARoJwC/view?usp=drive_link">Video</a> / <a href="https://drive.google.com/file/d/1Ly8WdGoOL2Gfm9bEv3GRHiJmQp6viUuV/view?usp=drive_link">Slides</a>)</span></p>
+          <h3><span class="bullet">&#9632;</span>USC / <span data-i18n="proj.muon">Muon Reshapes Multi-task Learning</span>*</h3>
+          <p class="keywords" data-i18n="kw.muon">Neural scaling laws, Machine learning optimization</p>
+          <p><span data-i18n="desc.muon">Spectrum-aware optimizers, particularly Muon, exhibit more favorable empirical scaling than optimizers like SGD and Adam. Prior work explains this through more balanced learning in settings with imbalanced labels or input-output associations. We show that Muon enables more balanced skill acquisition in settings with task-level imbalance. Using a multi-task sparse parity-based setup along with Muon, sub-tasks are learned more in parallel than with other optimizers. We create a Skill Acquisition Lag (SAL) metric to quantify parallel versus sequential learning. In a simple in-context linear regression setting, Muon's convergence is independent of both task- and input-level imbalance, in contrast to (normalized) GD.</span> <span class="back">(<a href="https://openreview.net/forum?id=WUsrhWHhU3" data-i18n="link.paper">Paper</a> / <a href="https://drive.google.com/file/d/1-18_hlorD5rt6trD3PINME_BDoIkQejM/view?usp=drive_link" data-i18n="link.poster">Poster</a> / <a href="https://drive.google.com/file/d/1mb0r9IH-m0FJhcILFsODGRu9DBARoJwC/view?usp=drive_link" data-i18n="link.video">Video</a> / <a href="https://drive.google.com/file/d/1Ly8WdGoOL2Gfm9bEv3GRHiJmQp6viUuV/view?usp=drive_link" data-i18n="link.slides">Slides</a>)</span></p>
         </div>
 
         <!-- <div class="row project">
@@ -133,37 +137,37 @@
 
         <div class="row project">
           <a name="phenomenological"></a>
-          <h3><span class="bullet">&#9632;</span>USC / Phenomenological Deep Learning</h3>
-          <p class="keywords">Robust machine learning, Computer vision</p>
-          <p>We investigated a phenomenon where an increasing, yet varying amount of white noise seems to increase a model's dependence on spurious correlations. I wrote PyTorch training and evaluation pipelines to test this on CIFAR-10 images, using a patch as the spurious feature. Surprisingly, results from this new setup showed the model relying completely on the patch. To determine how much the patch was affecting learning, we interpolated its transparency, showing concretely that a more visible patch increases reliance. After this, I learned about and ran hyperparameter sweeps using k-fold cross validation and augmented data. Then, in order to estimate how much of the true, clean features the network still learned, I implemented Deep Feature Reweighting (Kirichenko et al.). All of our experiments ran on an AWS EC2 cluster, where I averaged results across different configuration to produce reliable plots, and presented the findings at group meetings where we discussed new directions. Although the results weren't strong enough to pursue a paper, the project gave me great experience in explaining, designing, and debugging machine learning experiments.</p>
+          <h3><span class="bullet">&#9632;</span>USC / <span data-i18n="proj.phenom">Phenomenological Deep Learning</span></h3>
+          <p class="keywords" data-i18n="kw.phenom">Robust machine learning, Computer vision</p>
+          <p data-i18n="desc.phenom">We investigated a phenomenon where an increasing, yet varying amount of white noise seems to increase a model's dependence on spurious correlations. I wrote PyTorch training and evaluation pipelines to test this on CIFAR-10 images, using a patch as the spurious feature. Surprisingly, results from this new setup showed the model relying completely on the patch. To determine how much the patch was affecting learning, we interpolated its transparency, showing concretely that a more visible patch increases reliance. After this, I learned about and ran hyperparameter sweeps using k-fold cross validation and augmented data. Then, in order to estimate how much of the true, clean features the network still learned, I implemented Deep Feature Reweighting (Kirichenko et al.). All of our experiments ran on an AWS EC2 cluster, where I averaged results across different configuration to produce reliable plots, and presented the findings at group meetings where we discussed new directions. Although the results weren't strong enough to pursue a paper, the project gave me great experience in explaining, designing, and debugging machine learning experiments.</p>
         </div>
 
         <div class="row project">
           <a name="scratch"></a>
-          <h3><span class="bullet">&#9632;</span>UCI / Deep Automated Scratch Assessment</h3>
-          <p class="keywords">Synthetic data, Generative VAEs, Probabilistic programming</p>
-          <p>After consulting with my collaborators, we decided that it would be interesting for me to explore a "general" approach to grading student projects. Literature review led me to a paper (Malik et al. 2018) using a simple neural network to learn student trajectories. Our approach is similar: we train an LSTM on generated synthetic data, and at inference time, the students paste in their scratch.mit.edu links to be graded. (<a href="https://github.com/ARA34/deep-automated-assessment">Code</a>)</p>
+          <h3><span class="bullet">&#9632;</span>UCI / <span data-i18n="proj.scratch">Deep Automated Scratch Assessment</span></h3>
+          <p class="keywords" data-i18n="kw.scratch">Synthetic data, Generative VAEs, Probabilistic programming</p>
+          <p><span data-i18n="desc.scratch">After consulting with my collaborators, we decided that it would be interesting for me to explore a "general" approach to grading student projects. Literature review led me to a paper (Malik et al. 2018) using a simple neural network to learn student trajectories. Our approach is similar: we train an LSTM on generated synthetic data, and at inference time, the students paste in their scratch.mit.edu links to be graded.</span> (<a href="https://github.com/ARA34/deep-automated-assessment" data-i18n="link.code">Code</a>)</p>
         </div>
 
         <div class="row project">
           <a name="rpp"></a>
-          <h3><span class="bullet">&#9632;</span>UCI / Anticipating Design Tensions in Research Practice Partnerships*</h3>
-          <p class="keywords">Computer science education, Curriculum development, Javascript</p>
-          <p>A qualitative case study aimed at anticipating tensions in research-practice partnerships. We worked alongside 3 school districts in the Santa Ana, CA area to bring computer science-guided environmental literacy lessons to 3rd and 4th grade students. I spent most of my time buried in 15,000+ lines of code where I was adding onto an open-source project provided by the University of Chicago Canon Lab. Apart from this, I helped develop curriculum, collaborated in meetings, and wrote documentation. <span class="back">(<a href="https://github.com/ARA34/automated-assessment-fork">Code</a> / <a href="index.html#paper-rpp">Paper</a>)</span></p>
+          <h3><span class="bullet">&#9632;</span>UCI / <span data-i18n="proj.rpp">Anticipating Design Tensions in Research Practice Partnerships</span>*</h3>
+          <p class="keywords" data-i18n="kw.rpp">Computer science education, Curriculum development, Javascript</p>
+          <p><span data-i18n="desc.rpp">A qualitative case study aimed at anticipating tensions in research-practice partnerships. We worked alongside 3 school districts in the Santa Ana, CA area to bring computer science-guided environmental literacy lessons to 3rd and 4th grade students. I spent most of my time buried in 15,000+ lines of code where I was adding onto an open-source project provided by the University of Chicago Canon Lab. Apart from this, I helped develop curriculum, collaborated in meetings, and wrote documentation.</span> <span class="back">(<a href="https://github.com/ARA34/automated-assessment-fork" data-i18n="link.code">Code</a> / <a href="index.html#paper-rpp" data-i18n="link.paper">Paper</a>)</span></p>
         </div>
 
       </div> <!-- col -->
 
       <div class="hidden-xs hidden-sm col-md-2" style="margin:20px 0 0 0; padding-left:25px">
        <div style="max-width:200px; margin:0 auto">
-        <p><span class="lead">Fellowships</span></p>
-        <p>I am gratefully supported by</p>
+        <p><span class="lead" data-i18n="side.fellowships">Fellowships</span></p>
+        <p data-i18n="side.supported">I am gratefully supported by</p>
         <ul style="padding-left:20px">
             <li>USC Norman Topping
             </li><li>Hispanic Scholarship Fund
             </li><li>Berkeley Community Scholars
         </li></ul>
-        <p>Formerly supported by</p>
+        <p data-i18n="side.formerly">Formerly supported by</p>
         <ul style="padding-left:20px">
             <li>USC Center for Undergraduate Research in Viterbi Engineering
             </li><li>Daben Weiqing Liu Research Cohort
@@ -183,7 +187,7 @@
         <footer style="font-family:Times, 'Times New Roman', serif; text-align:left; font-size:90%; padding:0 0 10px 0">
             <p style="margin:0">Thomas Lord Department of Computer Science<br>
             <span style="color:#990000">USC</span> Viterbi School of Engineering<br>
-            &copy; 2026 Alex Reyes Aranda. All rights reserved.</p>
+            &copy; 2026 Alex Reyes Aranda. <span data-i18n="footer.rights">All rights reserved.</span></p>
         </footer>
       </div>
     </div>
@@ -196,6 +200,7 @@
     <script src="./src/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./src/bootstrap.min.js"></script>
+    <script src="./src/i18n.js"></script>
     <script src="./src/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./src/ie10-viewport-bug-workaround.js"></script>

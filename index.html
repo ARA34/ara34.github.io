@@ -54,25 +54,29 @@
 
        <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" ,="" style="margin:20px 0 0 0">
         <ul class="nav nav-pills nav-stacked">
-	  <li><a href="projects.html">Projects</a></li>
-          <li><a href="#papers">Papers</a></li>
-          <li><a href="#mentorship">Mentorship</a></li>
+	  <li><a href="projects.html" data-i18n="projects">Projects</a></li>
+          <li><a href="#papers" data-i18n="papers">Papers</a></li>
+          <li><a href="#mentorship" data-i18n="mentorship">Mentorship</a></li>
         </ul>
       </div>
 
       <div class="col-xs-10 col-sm-8 col-md-8">
 
         <div class="row">
+          <p id="lang-switch" class="text-right"><a href="#" data-lang="en">English</a> | <a href="#" data-lang="es">Español</a> | <a href="#" data-lang="de">Deutsch</a> | <a href="#" data-lang="zh">中文</a></p>
+        </div>
+
+        <div class="row">
           <img src="./src/headshot2.jpg" class="pull-left" style="margin:20px
           20px 20px 0; height:200px; width:200px">
           <h1>Alex Reyes Aranda</h1>
-          <p class="lead">
+          <p class="lead" data-i18n="home.affil">
             Undergraduate, University of Southern California<br>Los Angeles, CA<br>
 			reyesara@usc.edu<br>
 		  </p>
 		  <p>
           </p><ul class="list-inline">
-            <li><a href="https://drive.google.com/file/d/16hdbj0t6qJ5juD0kP0p-gYGBqkr92NoF/view?usp=sharing">Resume</a>
+            <li><a href="https://drive.google.com/file/d/16hdbj0t6qJ5juD0kP0p-gYGBqkr92NoF/view?usp=sharing" data-i18n="home.resume">Resume</a>
             </li><li><a href="https://scholar.google.com/citations?hl=en&user=etfcD_sAAAAJ">Google Scholar</a>
             </li><li><a href="https://x.com/alexhalfspace">Twitter</a>
             <!-- </li><li><a href="https://www.alexdamour.com/blog/public/index.html">Blog</a> -->
@@ -83,25 +87,25 @@
 		<hr>
 
         <div class="row">
-            <p><span class="lead">Recent News</span></p>
+            <p><span class="lead" data-i18n="home.news">Recent News</span></p>
         <p>
             <ul>
-                <li>September 2026: I transitioned to a year-round internship with the Secure Algorithms team at Sandia Labs!</li>
-                <li>May - August 2026: I joined Sandia National Laboratories as an intern in the National Security Programs and worked with the Computer Science Research Institute supporting AI/ML projects part of the Genesis Mission.</li>
+                <li data-i18n="home.news1">September 2026: I transitioned to a year-round internship with the Secure Algorithms team at Sandia Labs!</li>
+                <li data-i18n="home.news2">May - August 2026: I joined Sandia National Laboratories as an intern in the National Security Programs and worked with the Computer Science Research Institute supporting AI/ML projects part of the Genesis Mission.</li>
             </ul>
         <p>
         </div>
 		<hr>
 
 		<div class="row">
-            <p>I am a first-generation undergraduate computer science student in the CS Theory Group, mentored by the very thoughtful <a href="https://vatsalsharan.github.io/">Vatsal Sharan</a> and members of his group. Before USC, I had a great time working with <a href="https://www.clarebaek.com/">Clare Baek</a>, Dana Saito-Stehberger, and <a href="https://markwarschauer.com/">Mark Warschauer</a> in the Digital Learning Lab at the University of California, Irvine.
+            <p data-i18n="home.bio1">I am a first-generation undergraduate computer science student in the CS Theory Group, mentored by the very thoughtful <a href="https://vatsalsharan.github.io/">Vatsal Sharan</a> and members of his group. Before USC, I had a great time working with <a href="https://www.clarebaek.com/">Clare Baek</a>, Dana Saito-Stehberger, and <a href="https://markwarschauer.com/">Mark Warschauer</a> in the Digital Learning Lab at the University of California, Irvine.
 		<!--I was a member of the&nbsp;<a href="http://applied.stat.harvard.edu">Harvard Laboratory for Applied Statistical Methodology &amp; Data Science</a>.-->
 	    </p>
-            <p>
+            <p data-i18n="home.bio2">
             My interests span trustworthy machine learning from the perspective of optimization, security, and learning dynamics. I research the behavior of machine learning algorithms when they are in adversarial, noise-prone, and resource-limited environments. My work is motivated by the goal of using tools in computer science for developing solutions to societal problems. See brief descriptions of my past projects <a href="projects.html">here</a>.
             </p>
             <p></p>
-            I actively participate in student-led organizations at USC as the president of <a href="https://uscsacnas.weebly.com/">SACNAS</a>, and once Programming Chair for <a href="https://www.colorstack.org/">Color Stack</a> as well as a Committee Director for <a href="https://shpeusc.com/">SHPE</a>.
+            <span data-i18n="home.bio3">I actively participate in student-led organizations at USC as the president of <a href="https://uscsacnas.weebly.com/">SACNAS</a>, and once Programming Chair for <a href="https://www.colorstack.org/">Color Stack</a> as well as a Committee Director for <a href="https://shpeusc.com/">SHPE</a>.</span>
             <p></p>
             <!--<p></p>
 			<p>I am an active member of the <a href="http://xyresearch.com" data-url="http://xyresearch.com">XY Research</a>&nbsp;group, which conducts research in sports statistics with a focus on player-tracking data.</p>
@@ -122,7 +126,7 @@
         -->
 
 		<div class="row">
-		<h2 class="text-muted"><a name="papers"></a>Papers</h2>
+		<h2 class="text-muted"><a name="papers"></a><span data-i18n="papers">Papers</span></h2>
 		<!-- <p>
 		<i>Note: This section is no longer maintained. Please see <a href="https://scholar.google.com/citations?user=okP0uukAAAAJ">Google Scholar</a> for up-to-date publications.</i>
 		</p>
@@ -148,21 +152,21 @@
 			</li></ul>
         <p></p> -->
 
-        <p><span class="lead">Workshop</span></p>
+        <p><span class="lead" data-i18n="home.workshop">Workshop</span></p>
         <p>
         <a name="paper-muon"></a>
         <strong>On How Muon Reshapes Skill Learning Dyanmics</strong><br>
-        <span class="text-muted">Muon enables more balanced, parallel skill acquisition than SGD and Adam under task-level imbalance, measured by a new Skill Acquisition Lag (SAL) metric.</span><br>
+        <span class="text-muted" data-i18n="home.muon.desc">Muon enables more balanced, parallel skill acquisition than SGD and Adam under task-level imbalance, measured by a new Skill Acquisition Lag (SAL) metric.</span><br>
             <strong>Alex Reyes Aranda*</strong>, Vincent-Daniel Yun, Vatsal Sharan, Bhavya Vasudeva<br>
             <em>4th HiLD, International Conference on Machine Learning (ICML), 2026</em>
-            <br>Invited talk at the <em>Annual Machine Learning & Deep Learning Workshop</em>, August 2026 at Sandia National Laboratories.<br>
+            <br><span data-i18n="home.muon.talk">Invited talk at the <em>Annual Machine Learning &amp; Deep Learning Workshop</em>, August 2026 at Sandia National Laboratories.</span><br>
     
             </p><ul class="list-inline">
-                <li><a href="https://openreview.net/forum?id=WUsrhWHhU3">Paper</a></li>
-                <li><a href="https://drive.google.com/file/d/1-18_hlorD5rt6trD3PINME_BDoIkQejM/view?usp=drive_link">Poster</a></li>
-                <li><a href="https://drive.google.com/file/d/1mb0r9IH-m0FJhcILFsODGRu9DBARoJwC/view?usp=drive_link">Video</a></li>
-                <li><a href="https://drive.google.com/file/d/1Ly8WdGoOL2Gfm9bEv3GRHiJmQp6viUuV/view?usp=drive_link">Slides</a></li>
-                <li><a href="projects.html#muon">More</a></li>
+                <li><a href="https://openreview.net/forum?id=WUsrhWHhU3" data-i18n="link.paper">Paper</a></li>
+                <li><a href="https://drive.google.com/file/d/1-18_hlorD5rt6trD3PINME_BDoIkQejM/view?usp=drive_link" data-i18n="link.poster">Poster</a></li>
+                <li><a href="https://drive.google.com/file/d/1mb0r9IH-m0FJhcILFsODGRu9DBARoJwC/view?usp=drive_link" data-i18n="link.video">Video</a></li>
+                <li><a href="https://drive.google.com/file/d/1Ly8WdGoOL2Gfm9bEv3GRHiJmQp6viUuV/view?usp=drive_link" data-i18n="link.slides">Slides</a></li>
+                <li><a href="projects.html#muon" data-i18n="link.more">More</a></li>
             </ul>
         <p></p>
         <p>
@@ -222,29 +226,29 @@
 			<li class="text-danger">In preparation.
 			</ul>
         </p>-->
-        <p><span class="lead">Under Review</span></p>
+        <p><span class="lead" data-i18n="home.review">Under Review</span></p>
         <p>
             <a name="paper-neuromorphic"></a>
             <strong>Neuromorphic Compiler Optimization</strong><br>
-			<span class="text-muted">Spectral graph theoretic and load balacing partitioning optimize neuromorphic compiler.</span><br>
+			<span class="text-muted" data-i18n="home.neuro.desc">Spectral graph theoretic and load balacing partitioning optimize neuromorphic compiler.</span><br>
 			Yang Ho, Felix Wang, Sarah Luca, <strong>Alex Reyes Aranda</strong><br>
-            <em>Appearing soon on ORCID</em>
+            <em data-i18n="home.neuro.venue">Appearing soon on ORCID</em>
 			</p><ul class="list-inline">
                 <li><a href="https://orcid.org/0009-0001-7946-0354">ORCID</a>
-			</li><li><a href="projects.html#neuromorphic">More</a>
+			</li><li><a href="projects.html#neuromorphic" data-i18n="link.more">More</a>
 			</li></ul>
         <p></p>
 
         <p>
             <a name="paper-rpp"></a>
             <strong>Anticipating Design Tensions Through Early Collective Sensemaking in Research-Practice Partnerships</strong><br>
-			<span class="text-muted">Early sensemaking as anticipatory design work for navigating equity tensions in RPP curriculum co-design.</span><br>
+			<span class="text-muted" data-i18n="home.rpp.desc">Early sensemaking as anticipatory design work for navigating equity tensions in RPP curriculum co-design.</span><br>
 			Clare Baek, Victoria Nguyen, Symone Gyles, Rossella Santagata, Brian Minh Phan, <strong>Alex Reyes Aranda</strong>, Mark Warschauer<br>
 			</p><ul class="list-inline">
                 <!--<li><a href="content/effective_ancillarity/effective_ancillarity.html">Colloquium Slides</a>-->
-            <em>Submitted to the Journal of Learning Sciences</em>
+            <em data-i18n="home.rpp.venue">Submitted to the Journal of Learning Sciences</em>
             </p><ul class="list-inline">
-                </li><li><a href="projects.html#rpp">More</a>
+                </li><li><a href="projects.html#rpp" data-i18n="link.more">More</a>
 			</li></ul>
         <p></p>
 		</div>
@@ -331,43 +335,43 @@
             <p></p> -->
 		<!-- </div> -->
 
-        <div class="row"><a name="projs"></a><h2 class="text-muted">Projects</h2>
-        <p><span class="lead">Highlighted</span></p>
+        <div class="row"><a name="projs"></a><h2 class="text-muted" data-i18n="projects">Projects</h2>
+        <p><span class="lead" data-i18n="home.highlighted">Highlighted</span></p>
 
         <p>
-            <strong>Agentic Models & AI Infrastructure</strong><br>
-			<span class="text-muted">Supporting maintence on an internal agentic model, and building a locally deployed agentic runtime of my own.</span><br>
+            <strong data-i18n="proj.agentic">Agentic Models &amp; AI Infrastructure</strong><br>
+			<span class="text-muted" data-i18n="home.agentic.desc">Supporting maintence on an internal agentic model, and building a locally deployed agentic runtime of my own.</span><br>
 			<strong>Alex Reyes Aranda</strong>, Chris Siefert, Angel Beltre
             </p><ul class="list-inline">
                 <!--<li><a href="content/effective_ancillarity/effective_ancillarity.html">Colloquium Slides</a>-->
-            <em>Summer 2026</em>, <a href="projects.html#agentic">More</a>
+            <em data-i18n="summer2026">Summer 2026</em>, <a href="projects.html#agentic" data-i18n="link.more">More</a>
         <p></p>
 
         <p>
-            <strong>Phenomenological Deep Learning</strong><br>
-			<span class="text-muted">Whitenoise data and a spurious patches on CIFAR-10 probe when models heavily rely on simpler features.</span><br>
+            <strong data-i18n="proj.phenom">Phenomenological Deep Learning</strong><br>
+			<span class="text-muted" data-i18n="home.phenom.desc">Whitenoise data and a spurious patches on CIFAR-10 probe when models heavily rely on simpler features.</span><br>
 			<strong>Alex Reyes Aranda</strong>, Siddartha Devic, Julian Asilis, Vatsal Sharan, Shaddin Dughmi, Shang-Hua Teng
 			</p><ul class="list-inline">
                 <!--<li><a href="content/effective_ancillarity/effective_ancillarity.html">Colloquium Slides</a>-->
-            <em>Summer 2025</em>, <a href="projects.html#phenomenological">More</a>
+            <em data-i18n="summer2025">Summer 2025</em>, <a href="projects.html#phenomenological" data-i18n="link.more">More</a>
         <p></p>
 
-        <p>All past projects can be found <a href="projects.html">here</a>.</p>
+        <p data-i18n="home.allprojects">All past projects can be found <a href="projects.html">here</a>.</p>
         </div>
 
-        <div class="row"><a name="mentorship"></a><h2 class="text-muted">Mentorship</h2>
+        <div class="row"><a name="mentorship"></a><h2 class="text-muted" data-i18n="mentorship">Mentorship</h2>
         <p>
             <strong>Schedule-Stacked RL for Robust Machine Learning</strong><br>
 			<!-- <span class="text-muted">In high dimensions, overlap is a stronger assumption than most people realize. This paper presents some implications.</span><br> -->
 			Rowell Pangilinan, LAVC
 			</p><ul class="list-inline">
                 <!--<li><a href="content/effective_ancillarity/effective_ancillarity.html">Colloquium Slides</a>-->
-            <em>Summer 2026, NSF-PURE STEM Award #2413050 LAVC MESA Program</em>
+            <em><span data-i18n="summer2026">Summer 2026</span>, NSF-PURE STEM Award #2413050 LAVC MESA Program</em>
 			</li></ul>
         <p></p>
 
-        <h4 class="text-muted">Extra</h4>
-        <p>My younger brother is an aspiring physicist: You should check <a href="https://www.linkedin.com/in/reese-r-7a6654269/">Reese</a> out!</p>
+        <h4 class="text-muted" data-i18n="home.extra">Extra</h4>
+        <p data-i18n="home.brother">My younger brother is an aspiring physicist: You should check <a href="https://www.linkedin.com/in/reese-r-7a6654269/">Reese</a> out!</p>
 
         </div>
         </div>
@@ -408,14 +412,14 @@
 
       <div class="hidden-xs hidden-sm col-md-2" style="margin:20px 0 0 0; padding-left:25px">
        <div style="max-width:200px; margin:0 auto">
-        <p><span class="lead">Fellowships</span></p>
-        <p>I am gratefully supported by</p>
+        <p><span class="lead" data-i18n="side.fellowships">Fellowships</span></p>
+        <p data-i18n="side.supported">I am gratefully supported by</p>
         <ul style="padding-left:20px">
             <li>USC Norman Topping
             </li><li>Hispanic Scholarship Fund
             </li><li>Berkeley Community Scholars
         </li></ul>
-        <p>Formerly supported by</p>
+        <p data-i18n="side.formerly">Formerly supported by</p>
         <ul style="padding-left:20px">
             <li>USC Center for Undergraduate Research in Viterbi Engineering
             </li><li>Daben Weiqing Liu Research Cohort
@@ -452,7 +456,7 @@
         <footer style="font-family:Times, 'Times New Roman', serif; text-align:left; font-size:90%; padding:0 0 10px 0">
             <p style="margin:0">Thomas Lord Department of Computer Science<br>
             <span style="color:#990000">USC</span> Viterbi School of Engineering<br>
-            &copy; 2026 Alex Reyes Aranda. All rights reserved.</p>
+            &copy; 2026 Alex Reyes Aranda. <span data-i18n="footer.rights">All rights reserved.</span></p>
         </footer>
       </div>
     </div>
@@ -467,6 +471,7 @@
     <script src="./src/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./src/bootstrap.min.js"></script>
+    <script src="./src/i18n.js"></script>
     <script src="./src/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./src/ie10-viewport-bug-workaround.js"></script>

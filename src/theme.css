@@ -20,3 +20,14 @@ body {
 .list-inline {
   margin: -5px 0 20px 0;
 }
+
+#lang-switch {
+  margin: 0;
+  font-size: 90%;
+}
+
+#lang-switch a.active {
+  color: #333;
+  text-decoration: none;
+  cursor: default;
+}
