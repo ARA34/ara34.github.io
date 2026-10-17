@@ -3,6 +3,7 @@
 (function () {
   var translations = {
     es: {
+      'home': 'Inicio',
       'projects': 'Proyectos',
       'papers': 'Publicaciones',
       'mentorship': 'Mentoría',
