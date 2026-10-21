@@ -80,7 +80,7 @@
         <div class="row">
           <h1 class="projects-title" data-i18n="projects.title">Research Projects</h1>
           <p data-i18n="projects.intro">I'm grateful for the opportunities and collaborators that allowed me to grow as a researcher over the years and I look forward to continue expanding my skills by working with others!</p>
-          <p data-i18n="projects.note">Projects marked with (*) have an associated paper or report.</p>
+          <p data-i18n="projects.note">Projects marked with (*) have an associated paper or technical report.</p>
           <br>
           <ul class="projects-toc">
             <li><a href="#neuromorphic">SANDIA / <span data-i18n="proj.neuro">Neuromorphic Compiler Optimization</span>*</a></li>
@@ -102,7 +102,7 @@
           <a name="neuromorphic"></a>
           <h3><span class="bullet">&#9632;</span>SANDIA / <span data-i18n="proj.neuro">Neuromorphic Compiler Optimization</span>*</h3>
           <p class="keywords"><span data-i18n="kw.neuro">Spectral Graph Clustering, Optimization</span><span class="tag">UIR*</span></p>
-          <p><span data-i18n="desc.neuro">We researched optimization methods for a neuromorphic compiler within simulation. ETA October 2026.</span> <span class="back">(<span data-i18n="link.poster">Poster</span><!-- TODO: add poster URL --> / <span data-i18n="link.paper">Paper</span><!-- TODO: add poster URL -->)</span></p>
+          <p><span data-i18n="desc.neuro">Neuromorphic hardware runs spiking neural networks by distributing neurons across many smaller cores. Because every spike sent between cores adds some communication cost, how neurons are assigned has a large effect on the perfomance of the model. Working in-simulation, we researched optimization methods for this allocation step inside a neuromorphic compiler. I designed a two-stage partitioning algorithmf or mapping neurons to neurocores under per-core capacity and fan-in/fan-out constraints. First, spectral graph clustering groups tightly connected nerons so that spikes stay within a core. Then, an architecture-aware load-balancing performance model refines those clusters into optimal neuron-neurocore hardware placements . Compared to a naive HPC (or block)-style partitioning baseline, our approach cuts inter-core communication by more than half. Appearing soon on OSTI.gov.</span> <span class="back">(<span data-i18n="link.poster">Poster</span><!-- TODO: add poster URL --> / <span data-i18n="link.paper">Paper</span><!-- TODO: add poster URL -->)</span></p>
         </div>
 
         <div class="row project">
