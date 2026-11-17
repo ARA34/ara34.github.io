@@ -3,6 +3,8 @@
 (function () {
   var translations = {
     es: {
+      'theme.dark': 'Modo oscuro',
+      'theme.light': 'Modo claro',
       'home': 'Inicio',
       'projects': 'Proyectos',
       'papers': 'Publicaciones',
@@ -30,6 +32,7 @@
       'home.allprojects': 'Todos mis proyectos anteriores se pueden consultar <a href="projects.html">aquí</a>.',
       'home.extra': 'Extra',
       'home.brother': 'Mi hermano menor aspira a ser físico: ¡échale un vistazo a <a href="https://www.linkedin.com/in/reese-r-7a6654269/">Reese</a>!',
+      'home.funfact': 'Dato curioso: cada vez que voy a casa, mi mamá, que habla español, nos pregunta a mi hermano menor y a mí sobre nuestra investigación. Es como una nueva tradición familiar. Gracias a eso, aprendí a explicar mi trabajo técnico en español de forma divertida, lo que inesperadamente se ha convertido en la mejor prueba de si de verdad lo entiendo.',
       'summer2026': 'Verano de 2026',
       'summer2025': 'Verano de 2025',
 
@@ -74,6 +77,8 @@
     },
 
     de: {
+      'theme.dark': 'Dunkelmodus',
+      'theme.light': 'Hellmodus',
       'projects': 'Projekte',
       'papers': 'Publikationen',
       'mentorship': 'Mentoring',
@@ -100,6 +105,7 @@
       'home.allprojects': 'Alle bisherigen Projekte finden Sie <a href="projects.html">hier</a>.',
       'home.extra': 'Sonstiges',
       'home.brother': 'Mein jüngerer Bruder ist angehender Physiker: Schauen Sie sich <a href="https://www.linkedin.com/in/reese-r-7a6654269/">Reese</a> unbedingt an!',
+      'home.funfact': 'Fun Fact: Immer wenn ich nach Hause komme, fragt meine spanischsprachige Mutter meinen jüngeren Bruder und mich nach unserer Forschung. Das ist fast schon eine neue Familientradition. Dadurch habe ich gelernt, meine technische Arbeit spielerisch auf Spanisch zu erklären – und das ist unerwartet zum besten Test dafür geworden, ob ich sie wirklich verstehe.',
       'summer2026': 'Sommer 2026',
       'summer2025': 'Sommer 2025',
 
@@ -144,6 +150,8 @@
     },
 
     zh: {
+      'theme.dark': '深色模式',
+      'theme.light': '浅色模式',
       'projects': '项目',
       'papers': '论文',
       'mentorship': '指导',
@@ -170,6 +178,7 @@
       'home.allprojects': '所有过往项目请见<a href="projects.html">此处</a>。',
       'home.extra': '其他',
       'home.brother': '我的弟弟立志成为一名物理学家：欢迎了解一下 <a href="https://www.linkedin.com/in/reese-r-7a6654269/">Reese</a>！',
+      'home.funfact': '趣事：每次我回家，说西班牙语的妈妈都会问我和弟弟的研究，这几乎成了一个新的家庭传统。在这个过程中，我学会了用西班牙语轻松有趣地讲解自己的技术工作，而这意外地成了检验我是否真正理解它的最好方法。',
       'summer2026': '2026年夏季',
       'summer2025': '2025年夏季',
 

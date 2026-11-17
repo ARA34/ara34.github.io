@@ -26,7 +26,7 @@ body {
   font-size: 90%;
 }
 
-#lang-switch a.active {
+a[data-lang].active {
   color: #333;
   text-decoration: none;
   cursor: default;
@@ -52,3 +52,33 @@ body {
 .paper-venue {
   margin: 0 0 10px 0;
 }
+
+#lang-switch a { font-weight: bold; }
+
+.theme-toggle .label-light { display: none; }
+html[data-theme="dark"] .theme-toggle .label-dark { display: none; }
+html[data-theme="dark"] .theme-toggle .label-light { display: inline; }
+
+/* Dark theme */
+html[data-theme="dark"] { color-scheme: dark; }
+html[data-theme="dark"] body { background-color: #1a1b1e; color: #d6d6d6; }
+html[data-theme="dark"] a { color: #7fc08a; }
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus { color: #a6d8ae; }
+html[data-theme="dark"] .text-muted,
+html[data-theme="dark"] .projects-note { color: #9a9a9a; }
+html[data-theme="dark"] hr { border-top-color: #333; }
+html[data-theme="dark"] .nav > li > a:hover,
+html[data-theme="dark"] .nav > li > a:focus { background-color: #2a2b2f; }
+html[data-theme="dark"] a[data-lang].active { color: #d6d6d6; }
+html[data-theme="dark"] .projects-title,
+html[data-theme="dark"] .project h3 { color: #7fc08a; }
+html[data-theme="dark"] .usc { color: #e0605a !important; }
+
+/* Mode toggle: same grays as the selected language */
+.theme-toggle,
+.theme-toggle:hover,
+.theme-toggle:focus { color: #333; }
+html[data-theme="dark"] .theme-toggle,
+html[data-theme="dark"] .theme-toggle:hover,
+html[data-theme="dark"] .theme-toggle:focus { color: #d6d6d6; }

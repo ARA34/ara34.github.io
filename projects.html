@@ -29,6 +29,7 @@
 
     <!-- Custom styles for this template -->
     <link href="./src/theme.css" rel="stylesheet">
+    <script src="./src/darkmode.js"></script>
     <style>
       a { color: #437e4d; }
       a:hover, a:focus { color: #2d5734; }
@@ -74,7 +75,7 @@
       <div class="col-xs-10 col-sm-8 col-md-8">
 
         <div class="row">
-          <p id="lang-switch" class="text-right"><a href="#" data-lang="en">English</a> | <a href="#" data-lang="es">Español</a> | <a href="#" data-lang="de">Deutsch</a> | <a href="#" data-lang="zh">中文</a></p>
+          <p id="lang-switch" class="text-right"><a href="#" class="theme-toggle" role="button"><span class="label-dark" data-i18n="theme.dark">Dark mode</span><span class="label-light" data-i18n="theme.light">Light mode</span></a> &amp; <a href="#" data-lang="en">English</a> | <a href="#" data-lang="es">Español</a> | <a href="#" data-lang="de">Deutsch</a> | <a href="#" data-lang="zh">中文</a></p>
         </div>
 
         <div class="row">
@@ -167,7 +168,7 @@
       <div class="col-xs-10 col-sm-8 col-md-8" style="padding-left:0">
         <footer style="font-family:Times, 'Times New Roman', serif; text-align:left; font-size:90%; padding:0 0 10px 0">
             <p style="margin:0">Thomas Lord Department of Computer Science<br>
-            <span style="color:#990000">USC</span> Viterbi School of Engineering<br>
+            <span class="usc" style="color:#990000">USC</span> Viterbi School of Engineering<br>
             &copy; 2026 Alex Reyes Aranda. <span data-i18n="footer.rights">All rights reserved.</span></p>
         </footer>
       </div>
